@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+    background-color: #f0f4f7;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Remove padding for the app to make everything compact */
+.stApp {
+    padding: 0px;
+}
+
+/* Style the form container */
+.login-container {
+    width: 100%;
+    max-width: 250px ;
+    margin: 0 auto;
+    background-color: red;
+
+    padding: 0px; /* Reduced padding */
+}
+
+/* Remove space at the top of the form */
+.stForm {
+    margin-top: 0px;  /* Remove margin above the form */
+    padding-top: 0px; /* Remove padding from the form */
+}
+
+/* Style the form title */
+.login-container h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 0px ;  /* Remove top margin for the title */
+}
+
+/* Style for text input and password input */
+.stTextInput, .stPasswordInput {
+    margin-bottom: 10px;
+
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 0px;  /* Remove space above input fields */
+}
+
+/* Style for the submit button */
+.stButton:nth-of-type(1) button{
+    width: 100%;
+    padding: 12px;
+    background-color:yellow;
+    color: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.stForm > div  > button{
+    width: 100%;
+    padding: 12px;
+    background-color:yellow;
+    color: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.stButton:hover {
+    background-color: #D8D8D8;  
+}
+
+/* Forgot password link styling */
+.forgot-password {
+    text-align: center;
+    font-size: 14px;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
