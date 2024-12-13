@@ -66,14 +66,3 @@ body {
     background-color: #D8D8D8;  
 }
 
-/* Forgot password link styling */
-.forgot-password {
-    text-align: center;
-    font-size: 14px;
-    color: #007BFF;
-    cursor: pointer;
-}
-
-.forgot-password:hover {
-    text-decoration: underline;
-}
