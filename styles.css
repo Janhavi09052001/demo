@@ -77,3 +77,25 @@ body {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+/* Forgot password link styling  this is my practice of feature-1*/
+.forgot-password {
+    text-align: center;
+    font-size: 14px;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+
+
